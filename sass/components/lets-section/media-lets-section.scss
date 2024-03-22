@@ -1,0 +1,40 @@
+@include desctopXLMin {
+  .lets-section {
+    margin-top: 380px;
+    padding: 0 30px;
+  }
+  .lets-section__title {
+    font-size: 198px;
+    letter-spacing: -4px;
+    line-height: 160px;
+  }
+  .lets-section__subtitle {
+    font-size: 220px;
+    letter-spacing: -4px;
+    line-height: 170px;
+  }
+  .lets-section__mix-row {
+    gap: 24px;
+  }
+  .lets-section__description {
+    font-size: 42px;
+    line-height: 38px;
+  }
+  .lets-section__button {
+    margin-top: 30px;
+  }
+}
+
+@include mobile {
+  .lets-section__description {
+    margin-top: 5px;
+  }
+}
+@include mobileXS {
+  .lets-section__description {
+    margin-top: 2px;
+  }
+  .lets-section__button {
+    margin-top: 16px;
+  }
+}

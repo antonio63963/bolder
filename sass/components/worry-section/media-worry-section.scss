@@ -1,0 +1,55 @@
+@include mobileXS {
+  .worry-section__content {
+    grid-template-columns: 1fr;
+    .worry-section__img1 {
+      height: 100rem;
+    }
+  }
+  .show-on-mobile {
+    display: inline;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+  .worry-section__mix-row {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .worry-section__description {
+    width: 80%;
+    text-align: center;
+  }
+}
+
+@include desctopXLMin {
+  .worry-section__title {
+    font-size: 180px;
+    line-height: 180px;
+    letter-spacing: -9px;
+  }
+  .worry-section__content {
+    gap: 24px;
+    .worry-section__img1 {
+      height: 440px;
+    }
+    .worry-section__img2 {
+      height: 596px;
+    }
+  }
+  .worry-section__subtitle {
+    font-size: 170px;
+    line-height: 140px;
+    letter-spacing: -8px;
+  }
+  .worry-section__mix-row {
+    gap: 24px;
+    .worry-section__description {
+      font-size: 48px;
+      line-height: 40px;
+    }
+    .worry-section__email-input {
+      margin-top: 135px;
+      margin-bottom: 12px;
+    }
+  }
+}

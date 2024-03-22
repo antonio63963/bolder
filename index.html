@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title>Make It Bolder</title>
+</head>
+
+<body>
+  <header class="header-container">
+    <div class="app-width header">
+      <h3 class="logo">MAKE IT BOLDER</h3>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-list_item">WORKS</li>
+          <li class="nav-list_item">ABOUT US</li>
+          <li class="nav-list_item">CAREERS</li>
+          <li class="nav-list_item">SERVICES</li>
+          <li class="nav-list_item">CONTACTS</li>
+        </ul>
+
+        <div class="menu-button">
+          <svg class="menu-button__close icon-hide" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+            stroke-width="3" stroke="currentColor">
+            <g id="cross">
+              <line class="1" x1="7" x2="25" y1="7" y2="25" />
+              <line class="1" x1="7" x2="25" y1="25" y2="7" />
+            </g>
+          </svg>
+
+
+          <svg class="menu-button__burger" style="enable-background:new 0 0 512 512;" version="1.1"
+            viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g>
+              <g>
+                <path class="st0"
+                  d="M381,190.9H131c-11,0-20-9-20-20s9-20,20-20h250c11,0,20,9,20,20S392,190.9,381,190.9z" />
+              </g>
+              <g>
+                <path class="st0"
+                  d="M381,361.1H131c-11,0-20-9-20-20s9-20,20-20h250c11,0,20,9,20,20S392,361.1,381,361.1z" />
+              </g>
+              <g>
+                <path class="st0" d="M381,276H131c-11,0-20-9-20-20s9-20,20-20h250c11,0,20,9,20,20S392,276,381,276z" />
+              </g>
+            </g>
+          </svg>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="content-container app-width">
+    <!-- Mobile menu -->
+    <aside class="sidebar">
+      <ul class="sidebar__nav-list">
+        <li class="nav-list_item">WORKS</li>
+        <li class="nav-list_item">ABOUT US</li>
+        <li class="nav-list_item">CAREERS</li>
+        <li class="nav-list_item">SERVICES</li>
+        <li class="nav-list_item">CONTACTS</li>
+      </ul>
+    </aside>
+    <!-- HEADLINE -->
+    <div class="headline-container">
+      <div class="headline">
+        <div class="headline-image-wrapper">
+          <img class="headline-image" src="./assets/img/headline_img.jpg" alt="label on bottle">
+        </div>
+        <div class="headline-text">
+          <h1 class="headline-text__title">Make It Bolder</h1>
+          <p class="headline-text-subtitle">
+            we achieve a harmonious balance between artistic flexibility and assertive viewpoints.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- TEAM SECTION -->
+    <section class="team-section">
+      <h2 class="team-section__title">
+        We’re a team of passionate
+      </h2>
+      <p class="team-section__subtitle">
+        creatives hunting for our next
+      </p>
+      <div class="team-section__content">
+        <p class="team-section__subtitle">
+          exciting project.
+        </p>
+        <p class="team-section__description">
+          Our collective of disruptive innovators is scattered all around the world, ready to tackle whatever
+          challenge
+          you bring to our table. Always striving for creative excellence, we want to nourish your ideas with a design
+          process that helps them grow.
+        </p>
+        <div class="team-section__img_big rounded-item">
+        </div>
+        <div class="team-section__img_small-1 rounded-item">
+        </div>
+        <div class="team-section__img_small-2 rounded-item">
+        </div>
+      </div>
+    </section>
+
+    <!-- Let's start section -->
+    <section class="lets-section">
+      <h2 class="lets-section__title">
+        Let’s start!
+      </h2>
+      <p class="lets-section__subtitle">
+        Bring on the
+      </p>
+      <div class="lets-section__mix-row">
+        <p class="
+          lets-section__subtitle
+          lets-section__subtitle-mix
+          ">
+          challenge!
+        </p>
+        <p class="lets-section__description">
+          Make it bolder’s team is always ready to provide solutions to your creative issues.
+        </p>
+      </div>
+      <button class="app-button lets-section__button">
+        talk to an expert
+      </button>
+    </section>
+
+    <!-- Worry Section -->
+    <section class="worry-section">
+      <h2 class="worry-section__title">
+        Don’t worry
+      </h2>
+      <div class="worry-section__content">
+        <div class="worry-section__img1"></div>
+        <div class="worry-section__img2"></div>
+        <p class="worry-section__subtitle">We’ll do all <span class="worry-section__subtitle show-on-mobile">the
+            work!</span></p>
+      </div>
+      <div class="worry-section__mix-row">
+        <p class="worry-section__subtitle hide-on-mobile hide-on-mobile">the work!</p>
+        <p class="worry-section__description">
+          You can leave us you email, and we will contact you to hear more about your project.
+        </p>
+      </div>
+      <!-- input -->
+      <input class="worry-section__email-input input" type="email" placeholder="We just need your adress.">
+      <button class="app-button worry-section__button">Get in touch</button>
+    </section>
+
+  </main>
+  <footer class="footer app-width">
+    <!-- menu -->
+    <ul class="footer__menu">
+      <li class="footer__menu-item">works</li>
+      <li class="footer__menu-item">about us</li>
+      <li class="footer__menu-item">careers</li>
+      <li class="footer__menu-item">SERVICES</li>
+      <li class="footer__menu-item">contact</li>
+    </ul>
+    <!-- socials -->
+    <ul class="footer__socials">
+      <li class="footer__socials-item">instagram</li>
+      <li class="footer__socials-item">behance</li>
+      <li class="footer__socials-item">email</li>
+      <li class="footer__socials-item">telephone</li>
+    </ul>
+    <h3 class="footer__title">MAKE IT BOLDER</h3>
+  </footer>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+//brakepoints
+@include desctopXLMin {
+  .headline-text__title {
+    font-size: 212px;
+  }
+  .headline-text-subtitle {
+    font-size: 40px;
+    margin-top: 24px;
+  }
+  .headline-image-wrapper {
+    width: 170px;
+  }
+  .headline-image {
+    right: -10px;
+    bottom: -30px;
+  }
+  .headline-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+  }
+  .headline {
+    height: 690px;
+  }
+}

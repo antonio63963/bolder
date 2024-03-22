@@ -1,0 +1,45 @@
+@include desctop {
+  .nav-list_item {
+    font-size: 12px;
+  }
+  .logo {
+    font-size: 18px;
+  }
+}
+@include tablet {
+  .header-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .header {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .header nav {
+    grid-column: 2/4;
+  }
+  .nav-list {
+    font-size: 1.8rem;
+  }
+}
+@include mobile {
+  .header-container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .nav-list {
+    display: none;
+  }
+  .menu-button {
+    display: inline-block;
+    // width: 32px;
+  }
+}
+@include mobileXS {
+  .header-container {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .sidebar {
+    width: 100%;
+  }
+}
