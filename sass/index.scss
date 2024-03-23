@@ -1,13 +1,13 @@
-@import "./sass/comon/variablses.scss";
-@import "./sass/comon/fonts.scss";
-@import "./sass/comon/scrollbar.scss";
-@import "./sass/comon/mediaqueries.scss";
-@import "./sass/components/header";
-@import "./sass/components/headline";
-@import "./sass/components/team-section";
-@import "./sass/components/lets-section";
-@import "./sass/components/worry-section";
-@import "./sass/components/footer";
+@import "./comon/variablses.scss";
+@import "./comon/fonts.scss";
+@import "./comon/scrollbar.scss";
+@import "./comon/mediaqueries.scss";
+@import "./components/header";
+@import "./components/headline";
+@import "./components/team-section";
+@import "./components/lets-section";
+@import "./components/worry-section";
+@import "./components/footer";
 
 html {
   font-size: calc(1vw / 14.4 * 9);
