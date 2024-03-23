@@ -619,6 +619,7 @@ nav {
   grid-template-columns: repeat(6, 1fr);
   padding: 0 3rem;
   margin-top: 36rem;
+  background-image: url("../../../assets/img/team_img1.jpg");
 }
 
 .footer__menu {
