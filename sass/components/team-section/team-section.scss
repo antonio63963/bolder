@@ -40,7 +40,7 @@
 .team-section__img_big {
   grid-row: 3/9;
   grid-column: 1;
-  background-image: url(../../../assets/img/headline_img.jpg);
+  background-image: url(assets/img/headline_img.jpg);
   background-size: cover;
   border-radius: $radius;
   // height: 60rem;
@@ -48,14 +48,14 @@
 .team-section__img_small-1 {
   grid-column: 2;
   grid-row: 1/5;
-  background-image: url(../../../assets/img/team_img1.jpg);
+  background-image: url(assets/img/team_img1.jpg);
   background-size: cover;
   border-radius: $radius;
 }
 .team-section__img_small-2 {
   grid-column: 2;
   grid-row: 5/9;
-  background-image: url(../../../assets/img/team_img2.jpg);
+  background-image: url(assets/img/team_img2.jpg);
   background-size: cover;
   border-radius: $radius;
 }
